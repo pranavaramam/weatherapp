@@ -12,7 +12,7 @@ const Weather = ()=>{
         const search = async (city,icon)=>{
 
             try{
-                const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=ab64466017f6b0c4c4b6abd205a34d17`;
+                const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=`;
 
                 const response =await fetch (url);
                 const date = await response.json();
